@@ -18,6 +18,10 @@ class Configuration {
     constructor() {
         // Columbus, OH
         this.center = [39.9622601, -83.0007065];
+        this.tileserver = {
+            url: 'https://columbusoh.gotransitapp.com/tiles/{z}/{x}/{y}.png',
+            subdomains: ''
+        };
 
         this.agencies = [
             {
